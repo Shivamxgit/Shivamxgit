@@ -1,0 +1,248 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Shivam Kumar} \\ \vspace{1pt}
+     --\\ \vspace{0.5pt}
+ \small \raisebox{-0.1\height} ~\href{shivam.usar@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{shivam.usar@gmail.com}} ~ 
+    \href{www.linkedin.com/in/shivamkumar2805}{\raisebox{-0.2\height}\faLinkedin\ \underline{www.linkedin.com/in/shivamkumar2805}}  ~
+    \href{https://github.com/}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/Shivamxgit}}
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {University School of Automation \& Robotics (USAR)}{2023 -- 2027}
+    {Bachelor of Technology in Artificial Intelligence and Data Science}{Delhi, India}
+    
+    \vspace{1 pt}
+    {\small {CGPA:} 8.23}
+\resumeSubHeadingListEnd
+%------RELEVANT COURSEWORK-------
+\section{Relevant Coursework}
+    %\resumeSubHeadingListStart
+        \begin{multicols}{3}
+            \begin{itemize}[itemsep=-5pt, parsep=3pt]
+                \item\small Data Structures
+                \item Machine Learning
+                \item Deep Learning Fundamentals
+                \item Database Management
+                \item Artificial Intelligence
+                \item Natural Language Processing
+            \end{itemize}   
+        \end{multicols}
+        \vspace*{2.0\multicolsep}
+    %\resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+   \resumeSubheading
+  {1M1B Green Skills Academy}{July 2025 -- August 2025}
+  {Summer Intern}{Virtual}
+  \resumeItemListStart
+    \resumeItem{Completed a 5-week \textbf{AICTE-supported Green Internship} under \textbf{1M1B} (UN-accredited, powered by \textbf{Salesforce}), completing \textbf{60+ hours} of AI and data analytics training.}
+    \resumeItem{Built a \textbf{Streamlit-based Wind Energy Feasibility Dashboard} forecasting wind potential across \textbf{19 districts of Tamil Nadu} using \textbf{4 years of ERA5 climate data}.}
+    \resumeItem{Benchmarked \textbf{ARIMA, SARIMA, and Facebook Prophet}, achieving \textbf{45\% lower RMSE} with Prophet; built with \textbf{Python, Pandas, Plotly}, and an Energy Estimator for turbine output (kWh).}
+  \resumeItemListEnd
+
+    \resumeSubheading
+  {IBM SkillsBuild \& AICTE}{June 2026 -- Present}
+  {Generative AI Intern}{Virtual}
+  \resumeItemListStart
+    \resumeItem{Pursuing a 6-week AICTE-supported internship focused on \textbf{Generative AI}, \textbf{Prompt Engineering}, \textbf{Cloud Computing}, and AI application development.}
+    \resumeItem{Completing hands-on training through the IBM SkillsBuild learning platform covering LLMs, cloud fundamentals, API architecture, and AI-assisted development.}
+    \resumeItem{Participating in expert-led masterclasses on prompt engineering, AWS deployment, cloud data persistence, and modern AI application workflows.}
+    \resumeItem{Working towards developing and deploying a real-world AI project as part of the internship curriculum.}
+  \resumeItemListEnd
+\vspace{-11pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Wind Energy Feasibility Dashboard} $|$ \emph{Python, Streamlit, Prophet, Pandas, Plotly}}{July 2025}
+          \vspace{-6pt}
+          \resumeItemListStart
+            \resumeItem{Designed and deployed an interactive \textbf{Streamlit dashboard} enabling district-level wind energy feasibility analysis for \textbf{19 districts} using open-source \textbf{Copernicus ERA5} climate data.}
+            \resumeItem{Engineered a data pipeline to clean, aggregate, and transform \textbf{4 years of hourly wind data} into weekly time series for model training.}
+            \resumeItem{Built an \textbf{Energy Estimator} module translating forecasted wind speeds into turbine power output (kWh) based on configurable turbine parameters.}
+          \resumeItemListEnd
+          \vspace{-12pt}
+      \resumeProjectHeading
+          {\textbf{Text Summarization Web App} $|$ \emph{Python, T5, Hugging Face, FastAPI, Pandas}}{January 2026}
+          \vspace{-6pt}
+          \resumeItemListStart
+            \resumeItem{Built a \textbf{Text Summarization Web Application} using the \textbf{T5 Transformer} model from \textbf{Hugging Face Transformers} to generate summaries from long-form text.}
+            \resumeItem{Trained and evaluated the model on the \textbf{SAMSum dataset}, with \textbf{Pandas} used for data preprocessing and integration.}
+            \resumeItem{Implemented a \textbf{FastAPI} backend with a lightweight \textbf{HTML/CSS} frontend, enabling real-time summary generation with copy functionality.}
+          \resumeItemListEnd
+          \vspace{-11pt}
+          
+    \resumeSubHeadingListEnd
+\vspace{-8pt}
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, C++, JavaScript, SQL} \\
+     \textbf{Frameworks/Libraries}{: Streamlit, FastAPI, TensorFlow, Scikit-learn, NLTK, Pandas, NumPy, Plotly, Prophet, LangChain} \\
+     \textbf{Tools \& Platforms}{: Git, GitHub, Docker, VS Code, Google Colab, HuggingFace, Vercel} \\
+     \textbf{Other}{: Data Structures \& Algorithms, NLP, Computer Vision (OpenCV)} \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+
+%-----------INVOLVEMENT---------------
+\section{Leadership / Extracurricular}
+    \resumeSubHeadingListStart
+        \resumeSubheading
+          {1M1B Student Chapter, USAR}{2026 -- Present}
+          {Chairperson}{Delhi, India}
+          \resumeItemListStart
+            \resumeItem{Lead a student tech club affiliated with \textbf{1M1B} (UN-accredited), driving initiatives in AI, green skills, and youth entrepreneurship aligned with the UN SDGs.}
+            \resumeItem{Organized \textbf{Pitch Mela} in partnership with \textbf{1M1B IPU} at USAR Elysian (October 2025), coordinating logistics and participant engagement for the event.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+    \vspace{2pt}
+    \resumeItemListStart
+        \resumeItem{Secured \textbf{Top 3} out of \textbf{40+ teams} at the \textbf{IEEE USAR Hackathon} (September 2023).}
+        \resumeItem{Received the \textbf{Best Volunteer Award} at \textbf{Delhi Comic Con 2025} for outstanding contribution and coordination.}
+        \resumeItem{Solved \textbf{100+ problems} on \textbf{LeetCode} and \textbf{GeeksforGeeks}, strengthening core DSA and problem-solving skills.}
+    \resumeItemListEnd
+        
+    \resumeSubHeadingListEnd
+
+
+\end{document}
