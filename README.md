@@ -23,74 +23,6 @@ Currently focused on:
 
 ---
 
-## 🛠 Tech Stack
-
-### Languages
-
-![Python](...)
-![C++](...)
-![SQL](...)
-
-### AI / ML
-
-Scikit-Learn
-
-TensorFlow
-
-PyTorch
-
-Transformers
-
-LangChain
-
-OpenCV
-
-Pandas
-
-NumPy
-
-Matplotlib
-
-Plotly
-
----
-
-### Web
-
-FastAPI
-
-Streamlit
-
-HTML
-
-CSS
-
-JavaScript
-
----
-
-### Database
-
-MongoDB
-
-MySQL
-
----
-
-### Cloud & DevOps
-
-Git
-
-GitHub
-
-Docker
-
-AWS
-
-VS Code
-
----
-
 ## 📚 Currently Learning
 
 - Generative AI
@@ -100,17 +32,11 @@ VS Code
 - AWS
 - MLOps
 
-<!--
+<--
 **Shivamxgit/Shivamxgit** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+- 🔭 I’m currently working on NLP and LLMs based Projects
+- 🌱 I’m currently learning Gen AI nad Agentic AI
 -->
