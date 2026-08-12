@@ -28,15 +28,8 @@ Currently focused on:
 - Generative AI
 - Transformers
 - RAG
-- Docker
+- DevOPs
 - AWS
 - MLOps
+- End2End Application Building
 
-<--
-**Shivamxgit/Shivamxgit** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on NLP and LLMs based Projects
-- 🌱 I’m currently learning Gen AI nad Agentic AI
--->
