@@ -1,6 +1,6 @@
 # Hi there 👋 I'm Shivam Kumar
 
-### AI/ML Engineer | Data Science Enthusiast | Open Source Learner
+### AI/ML | Data Science | Open Source Learner
 
 I enjoy building intelligent applications using Machine Learning, Deep Learning, NLP, and Generative AI.
 
